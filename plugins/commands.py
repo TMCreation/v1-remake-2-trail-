@@ -17,12 +17,13 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
+                        InlineKeyboardButton("💡 HELP", callback_data="help_data"),
+                        InlineKeyboardButton("📕 ABOUT", callback_data="about_data"),
+                    ],[
+                    InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    ],[
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "📽 🄲🄸🄽🄴🄷🅄🄱 ᴄᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/cinehub_family")
                     ]
                 ]
             ),
@@ -40,12 +41,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🔙 BACK", callback_data="start_data"),
+                        InlineKeyboardButton("📕 ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                            "📽 🄲🄸🄽🄴🄷🅄🄱 ᴄᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/cinehub_family")
                     ]
                 ]
             ),
@@ -65,11 +66,7 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot")
-                    ]
+                    ]    
                 ]
             ),
             reply_to_message_id=message.message_id
