@@ -1,26 +1,28 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {}
+    START_MSG = """ <b>👋 Hey There {} !
 
-You can call this as an Auto Filter Bot if you like :D
+😎 You can call me as 🄲🄸🄽🄴🄷🅄🄱 Auto Filter Bot if you like 
 
 Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
 
-So no need to add filters for your files or movies from now on!
+<i>So no need to add filters for your files or movies from now on!</i>
 
-For more click <i>help</i></b>"""
+<b>© Developed by : @cinehub_faily</b>
+
+For more click '💡 help' Button</b>"""
 
 
     HELP_MSG = """<b>How to use the bot??</b>
 <i>    
-* Add user account to your channel !
+1️⃣ Add user account to your channel !
 
-* Add bot to group with admin rights.
+2️⃣ Add bot to group with admin rights.
 
-* Once deployed and bot is started, send a message to channel (must do step)
+3️⃣ Once deployed and bot is started, send a message to channel (must do step)
 
-* Bot will work now :)
+4️⃣ Bot will work now :)
 
 No need add each filter again!
 Bot will automatically search for your file and give links to that!
@@ -29,14 +31,14 @@ Bot will automatically search for your file and give links to that!
 <b>© @TroJanzHEX</b>"""
 
 
-    ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot</b>
-    
-⭕️<b>Creater :</b> @TroJanzHEX
+    ABOUT_MSG = """⭕️<b>My Name : 🄲🄸🄽🄴🄷🅄🄱 Auto Filter Bot</b>
 
-⭕️<b>Language :</b> <code>Python3</code>
+💢<b>Language :</b> <code>Python3</code>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+💢<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
-⭕️<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
+💢<b>Developed By :</b> @cinehub_family
+
+💢<b>Main Creater :</b> <code>TroJanzHEX</code>
 
 """
