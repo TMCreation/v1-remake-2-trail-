@@ -3,7 +3,7 @@ class script(object):
 
     START_MSG = """ <b>👋 Hey There {} !
 
-😎 You can call me as 🄲🄸🄽🄴🄷🅄🄱 Auto Filter Bot if you like 
+You can call me as  🄲🄸🄽🄴🄷🅄🄱 Auto Filter Bot if you like 
 
 Bot simply search for the files from provided channel according to given query and gives link to those files as buttons!
 
@@ -14,7 +14,7 @@ Bot simply search for the files from provided channel according to given query a
 For more click '💡 help' Button</b>"""
 
 
-    HELP_MSG = """<b>How to use the bot??</b>
+    HELP_MSG = """<b>📌 How to use the bot??</b>
 <i>    
 1️⃣ Add user account to your channel !
 
@@ -37,8 +37,8 @@ Bot will automatically search for your file and give links to that!
 
 💢<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
 
-💢<b>Developed By :</b> @cinehub_family
-
 💢<b>Main Creater :</b> <code>TroJanzHEX</code>
+
+💢<b>Developed By :</b> @cinehub_family
 
 """
