@@ -9,7 +9,7 @@ Bot simply search for the files from provided channel according to given query a
 
 <i>So no need to add filters for your files or movies from now on!</i>
 
-<b>© Developed by : @cinehub_faily</b>
+<b>© Developed by : @cinehub_family</b>
 
 For more click '💡 help' Button</b>"""
 
@@ -28,7 +28,7 @@ No need add each filter again!
 Bot will automatically search for your file and give links to that!
 </i>
 
-<b>© @TroJanzHEX</b>"""
+<b>© @cinehub_family</b>"""
 
 
     ABOUT_MSG = """⭕️<b>My Name : 🄲🄸🄽🄴🄷🅄🄱 Auto Filter Bot</b>
