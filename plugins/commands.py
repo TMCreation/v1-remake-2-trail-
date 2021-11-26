@@ -19,9 +19,11 @@ async def start(client, message):
                     [
                         InlineKeyboardButton("💡 HELP", callback_data="help_data"),
                         InlineKeyboardButton("📕 ABOUT", callback_data="about_data"),
-                    ],[
-                    InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-                    ],[
+                    ],
+                    [
+                    InlineKeyboardButton('➕ Add Me To Your Groups ➕', url="@cinehub_family")
+                    ],
+                    [
                         InlineKeyboardButton(
                             "📽 🄲🄸🄽🄴🄷🅄🄱 ᴄᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/cinehub_family")
                     ]
