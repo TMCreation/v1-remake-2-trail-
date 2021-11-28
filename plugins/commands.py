@@ -23,6 +23,9 @@ async def start(client, message):
                     [
                         InlineKeyboardButton("📽 🄲🄸🄽🄴🄷🅄🄱", url="https://t.me/cinehub_family"),
                         InlineKeyboardButton("🔀 SHARE US", url="https://telegram.me/share/url?url=https://t.me/cinehub_family"),
+                    ],
+                    [
+                        InlineKeyboardButton("➕ Add Me to a Group ➕", url="http://t.me/CINEHUB_Searching_2_bot?startgroup=start"),
                     ]
                 ]
             ),
