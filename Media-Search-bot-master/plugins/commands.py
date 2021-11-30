@@ -73,12 +73,6 @@ async def log_file(bot, message):
         await message.reply(str(e))
 
 
-@Client.on_message(filters.command('help'))
-async def total(bot, message):
-    """Show total files in database"""
-    msg = await message.reply("Processing...⏳", quote=True)
-
-
 @Client.on_message(filters.command('delete') & filters.user(ADMINS))
 async def delete(bot, message):
     """Delete file from database"""
